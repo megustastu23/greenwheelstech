@@ -1,0 +1,281 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(233, 234, 181);
+    color: #fff;
+  }
+  
+  .second-sec {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: rgb(233, 234, 181);
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-weight: bold;
+    margin-right: 20px;
+    display: flex; 
+    font-size: 30px;
+    color: rgb(40, 36, 36);
+  }
+  
+  .first-sec{
+    display: flex;
+  }
+  .first-sec .logo{
+    margin: 0 40px;
+  }
+  
+  .first-sec .logo img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .first-sec .nav {
+    margin: 34px 0;
+  }
+  
+  .nav ul li a{
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(40, 36, 36);
+    
+  }
+  .footer{
+    padding: 30px 0;
+    font-size: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    background-image: url('bg2.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 1000px;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 40px
+  }
+  
+  .hero .counter{
+    font-display: bold;
+  }
+  
+  footer{
+    background-color: rgb(233, 234, 181);;
+    /*  height: 20px */
+  }
+  
+  .footer{
+        display: flex;
+        padding: 50px 120px;
+        justify-content: space-evenly;
+    }
+  
+  .footer .footer-one .h4{
+    font-size: 20px;
+  }
+  
+  .footer ul{
+    list-style: none;
+  }
+  
+  .footer > div {
+    width: 500px;
+  }
+  
+  footer .rights{
+    text-align: center;
+    color: rgb(40, 36, 36);
+    padding: 12px 0;
+  }
+  
+  .footer .footer-two ul li {
+    padding: 4px 0;
+  }
+  
+  .footer .footer-two ul li a{
+    text-decoration: none;  
+    color: white; 
+     
+  }
+  
+  .footer .footer-third ul li {
+    padding: 5px 0;
+    font-size: 10px;
+  }
+
+  #element {
+   font-size: 40px;
+}
+  
+.cplogo {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: url('logo.png');
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.icons{
+  padding: 0 50px;
+  height: 200px;
+}
+.slogan {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 1s ease-in-out;
+}
+
+
+.loginpage {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 8px;
+}
+
+form input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  background-color: rgb(233, 234, 181);
+}
+
+.footer-section {
+  width: 300px;
+  text-align: center;
+}
+
+.footer-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(40, 36, 36);
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: rgb(40, 36, 36);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(40, 36, 36);
+}
+
+.footer-section .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section .social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.footer-rights {
+  text-align: center;
+  color: rgb(40, 36, 36);
+  padding: 12px 0;
+  width: 100%;
+}
+
+.footer-third  .counter{
+ color:black;
+ padding: 90px 50px
+}
+
+  

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(233, 234, 181);
+            color: #fff;
+        }
+
+        header {
+            background-color: rgb(233, 234, 181);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(233, 234, 181);
+        }
+
+        ul li {
+            margin-right: 20px;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .company-box {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .greenwheel {
+            border: 2px solid #4CAF50;
+            width: 60%;
+            /* Adjust the width as needed */
+        }
+
+        .greenwheel img {
+            height: 300px;
+            width: 300px;
+            padding: 0 300px;
+        }
+
+        .bytebusters {
+            border: 2px solid #2196F3;
+        }
+
+        .bytebusters img {
+            height: 300px;
+            width: 300px;
+            padding: 0 190px;
+        }
+
+        .bytebusters p{
+            color: black;
+            font-weight: bold;
+        }
+
+        .greenwheel p{
+            color: black;
+            font-weight: bold;
+        }
+        .company-image {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .company-box h2 {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(233, 234, 181);
+            padding: 12px 0;
+            color: rgb(40, 36, 36);
+        }
+
+        header h1{
+            color: black;
+        }
+
+        ul li a{
+            color: black;
+        }
+
+         .logo img{
+         height: 100px;
+         width: 100px;
+
+  }
+
+   
+  footer{
+    background-color: rgb(233, 234, 181);;
+    /*  height: 20px */
+  }
+  
+  .footer{
+        display: flex;
+        padding: 50px 120px;
+        justify-content: space-evenly;
+    }
+  
+  .footer .footer-one .h4{
+    font-size: 20px;
+  }
+  
+  .footer ul{
+    list-style: none;
+  }
+  
+  .footer > div {
+    width: 500px;
+  }
+  
+  footer .rights{
+    text-align: center;
+    color: rgb(40, 36, 36);
+    padding: 12px 0;
+  }
+  
+  .footer .footer-two ul li {
+    padding: 4px 0;
+  }
+  
+  .footer .footer-two ul li a{
+    text-decoration: none;  
+    color: white; 
+     
+  }
+  
+  .footer .footer-third ul li {
+    padding: 5px 0;
+    font-size: 10px;
+  }
+
+  .footer-section a img{
+    height: 50px;
+  }
+
+  .footer-third  .counter{
+ color:black;
+ padding: 90px 50px;
+ font-weight: bold;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><img src="logo.png">
+        <h1>GreenWheel</h1></div>
+        
+      
+    </header>
+
+    <div class="first-sec">
+        <div class="logo">
+        
+        <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="worker.html">Work Login</a></li>
+          <li><a href="supervisor.html">Supervisior Login</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        </div>
+      </div>
+
+    <section class="company-container">
+        <div class="company-box greenwheel">
+            <img src="logo.png" alt="GreenWheel Image" class="company-image">
+            <h2>GreenWheel Technologies</h2>
+            <p>GreenWheel Technologies offers a web-based bus route management system, streamlining operations for
+                transportation agencies. The platform lets drivers and conductors signal availability, allowing
+                supervisors to assign them to specific routes. Real-time notifications keep staff informed instantly
+                upon assignment. With interactive maps and performance analytics, the system boosts operational
+                efficiency and supports data-driven decision-making. GreenWheel's customizable solution prioritizes
+                cost savings and improved communication, establishing itself as a leader in modernizing public
+                transportation management.</p>
+        </div>
+
+        <div class="company-box bytebusters">
+            <img src="bblogo.png" alt="ByteBusters Image" class="company-image">
+            <h2>ByteBusters</h2>
+            <p>The ByteBusters, a trio of dynamic high schoolers from SVIS, are committed to linking talent with
+                opportunities. Together, we focus on sustainable mobility and a brighter future for all. Through our
+                coding journey, we navigate towards a tomorrow where each line of code illuminates new career
+                pathways. Our mission is to shape a world where coding serves as a gateway to boundless
+                opportunities. Join us in crafting this transformative narrative.</p>
+        </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="footer-section">
+          <h2>Contact Us</h2>
+          <p>Email: <a href="mailto:bytebusters.svis@gmail.com">bytebusters.svis@gmail.com</a></p>
+          <p>Phone: <a">+91 9918535309</a></p>
+        </div>
+        <div class="footer-section">
+          <h2>Follow Us</h2>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/bytebusters.svis/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            <!-- Add more social media icons as needed -->
+          </div>
+        </div>
+        <div class="footer-third">
+  
+          <div class="counter"> You are visitor number: <span id="visitorCount">0</span></div>
+  
+    <script>
+      // Function to increment visitor count
+      function incrementVisitorCount() {
+        // Get the current visitor count from local storage
+        let count = localStorage.getItem('visitorCount');
+  
+        // If count is null or undefined, set it to 0
+        if (!count) {
+          count = 0;
+        }
+  
+        // Increment the count by 1
+        count++;
+  
+        // Update the visitor count in local storage
+        localStorage.setItem('visitorCount', count);
+  
+        // Update the visitor count on the page
+        document.getElementById('visitorCount').textContent = count;
+      }
+  
+      // Call the incrementVisitorCount function when the page loads
+      window.onload = incrementVisitorCount;
+    </script>
+  
+        </div>
+      </div>
+      <div class="footer-rights">Copyright &#169; ByteBusters | All Rights Reserved</div>
+    </footer>
+  
+
+</body>
+
+</html>

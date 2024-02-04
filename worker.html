@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Sleek Website</title>
+</head>
+<body>
+  
+
+  <header>
+    <nav>
+      <div class="first-sec">
+        <div class="logo">
+          <img src="logo.png">
+          <h1>GreenWheel</h1>
+        </div>
+        <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="worker.html">Work Login</a></li>
+          <li><a href="supervisor.html">Supervisior Login</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<body>
+    
+    <header>
+<style>
+
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    
+    .window {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .graph-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .driver {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .availability-status {
+        font-weight: bold;
+        color: #555;
+        margin-left: 10px;
+    }
+    
+    .bar {
+        height: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .available {
+        background-color: #5cb85c; /* Green */
+    }
+    
+    .unavailable {
+        background-color: #d9534f; /* Red */
+    }</style>
+</header>
+
+<section id="driver" class="window">
+    <h2>Driver List</h2>
+
+    <div class="driver" id="manojSection">
+        <span class="availability-status" id="manojStatus"><b>Manoj:</b> Available </span> <div class="bar available" style="width: 50%;"></div> <!-- Manoj Available -->
+    </div>
+
+    <div class="driver" id="prakashSection">
+        <span class="availability-status" id="prakashStatus"><b>Prakash:</b> Unavailable</span> <div class="bar unavailable" style="width: 50%;"></div> <!-- Suresh Unavailable -->
+    </div>
+
+    <div class="driver" id="prakashSection">
+        <span class="availability-status" id="sureshStatus"><b>Suresh:</b> Unavailable</span> <div class="bar unavailable" style="width: 50%;"></div> <!-- Suresh Unavailable -->
+    </div>
+
+    <div class="driver" id="rameshSection">
+        <span class="availability-status" id="rameshStatus"><b>Ramesh</b> Available</span> <div class="bar available" style="width: 50%;"></div> <!-- Ramesh Available -->
+    </div>
+
+    <div class="driver" id="deepakSection">
+        <span class="availability-status" id="deepakStatus"><b>Deepak</b> Unavailable</span> <div class="bar unavailable" style="width: 50%;"></div> <!-- Deepak Unavailable -->
+    </div>
+
+
+</section>
+<footer>
+    <div class="footer">
+      <div class="footer-section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:bytebusters.svis@gmail.com">bytebusters.svis@gmail.com</a></p>
+        <p>Phone: <a">+91 9918535309</a></p>
+      </div>
+      <div class="footer-section">
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/bytebusters.svis/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+          <!-- Add more social media icons as needed -->
+        </div>
+      </div>
+      <div class="footer-third">
+
+        <div class="counter"> You are visitor number: <span id="visitorCount">0</span></div>
+
+  <script>
+    // Function to increment visitor count
+    function incrementVisitorCount() {
+      // Get the current visitor count from local storage
+      let count = localStorage.getItem('visitorCount');
+
+      // If count is null or undefined, set it to 0
+      if (!count) {
+        count = 0;
+      }
+
+      // Increment the count by 1
+      count++;
+
+      // Update the visitor count in local storage
+      localStorage.setItem('visitorCount', count);
+
+      // Update the visitor count on the page
+      document.getElementById('visitorCount').textContent = count;
+    }
+
+    // Call the incrementVisitorCount function when the page loads
+    window.onload = incrementVisitorCount;
+  </script>
+
+      </div>
+    </div>
+    <div class="footer-rights">Copyright &#169; ByteBusters | All Rights Reserved</div>
+  </footer>
+
+</body>
+</html>
+
+
+
